@@ -1,3 +1,5 @@
+
+
 tableData = [['apples','oranges','cherries','banana'],
              ['Alice','Bob','Carol','David'],
              ['dogs','cats','moose','goose']]
@@ -18,3 +20,5 @@ for k in range(len(tableData[0])):
     for v in range(len(tableData)):
         print(tableData[v][k].rjust(colWith[v]+1),end='')
     print('')
+
+
